@@ -3,6 +3,9 @@ import Banner from "../components/banner";
 import Properties from "../components/Properties";
 import Separator from "../components/Separator";
 import axios from "axios";
+import ActionBanner from "./../components/ActionBanner";
+import Services from "../components/Services";
+import Footer from "./Footer";
 
 const axiosApi = axios.create({
   baseURL: "http://localhost:800/homepageproperties",
@@ -24,8 +27,12 @@ const Homepage = () => {
   return (
     <>
       <Banner />
-      <Separator title="FEATURED PROPERTIES" />
+      <Separator title="FEATURED PROPERTIES" color="inherit" />
       <Properties properties={properties} />
+      <ActionBanner />
+      <Services />
+      //Todo: contact
+      <Footer />
     </>
   );
 };
