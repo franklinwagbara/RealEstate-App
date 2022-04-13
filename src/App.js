@@ -6,18 +6,20 @@ import Propertiespage from "./pages/Propertiespage";
 import Aboutpage from "./pages/Aboutpage";
 import Servicespage from "./pages/Servicespage";
 import Contactpage from "./pages/Contactpage";
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/properties" element={<Propertiespage />} />
-        <Route path="/about" element={<Aboutpage />} />
-        <Route path="/services" element={<Servicespage />} />
-        <Route path="/contact" element={<Contactpage />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/properties" element={<Propertiespage />} />
+          <Route path="/about" element={<Aboutpage />} />
+          <Route path="/services" element={<Servicespage />} />
+          <Route path="/contact" element={<Contactpage />} />
+        </Routes>
+      </Layout>
     </div>
   );
 }

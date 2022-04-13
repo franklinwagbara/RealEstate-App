@@ -1,58 +1,52 @@
 {
-  "notes": [
+  "homepageproperties": [
     {
-      "title": "Yoshi's birthday bash",
-      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "category": "reminders",
-      "id": 1
+      "id": 1,
+      "title": "Property 1",
+      "price": "N20,000,000",
+      "path": "/prop1.jpg",
+      "location": "location of property 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum ipsum aut alias id, dolorem maiores, in quia expedita quos ad repellendus vero voluptatem, error libero adipisci aliquam pariatur eligendi!"
     },
     {
-      "title": "Complete my ninja training",
-      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
-      "category": "work",
-      "id": 2
+      "id": 2,
+      "title": "Property 2",
+      "price": "N20,000,000",
+      "path": "/prop2.jpg",
+      "location": "location of property 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum ipsum aut alias id, dolorem maiores, in quia expedita quos ad repellendus vero voluptatem, error libero adipisci aliquam pariatur eligendi!"
     },
     {
-      "title": "Order a pizza!",
-      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "category": "todos",
-      "id": 3
+      "id": 3,
+      "title": "Property 3",
+      "price": "N20,000,000",
+      "path": "/prop3.jpg",
+      "location": "location of property 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum ipsum aut alias id, dolorem maiores, in quia expedita quos ad repellendus vero voluptatem, error libero adipisci aliquam pariatur eligendi!"
     },
     {
-      "title": "Yoshi's birthday bash",
-      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "category": "reminders",
-      "id": 4
+      "id": 4,
+      "title": "Property 4",
+      "price": "N20,000,000",
+      "path": "/prop4.jpg",
+      "location": "location of property 4",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum ipsum aut alias id, dolorem maiores, in quia expedita quos ad repellendus vero voluptatem, error libero adipisci aliquam pariatur eligendi!"
     },
     {
-      "title": "Complete my ninja training",
-      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
-      "category": "work",
-      "id": 5
+      "id": 6,
+      "title": "Property 6",
+      "price": "N20,000,000",
+      "path": "/prop3.jpg",
+      "location": "location of property 6",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum ipsum aut alias id, dolorem maiores, in quia expedita quos ad repellendus vero voluptatem, error libero adipisci aliquam pariatur eligendi!"
     },
     {
-      "title": "Order a pizza!",
-      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "category": "todos",
-      "id": 6
-    },
-    {
-      "title": "Yoshi's birthday bash",
-      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "category": "reminders",
-      "id": 7
-    },
-    {
-      "title": "Complete my ninja training",
-      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
-      "category": "work",
-      "id": 8
-    },
-    {
-      "title": "Order a pizza!",
-      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "category": "todos",
-      "id": 9
+      "id": 7,
+      "title": "Property 7",
+      "path": "/prop6.jpg",
+      "price": "N20,000,000",
+      "location": "location of property 7",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum ipsum aut alias id, dolorem maiores, in quia expedita quos ad repellendus vero voluptatem, error libero adipisci aliquam pariatur eligendi!"
     }
   ]
 }

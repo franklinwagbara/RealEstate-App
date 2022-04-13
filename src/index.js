@@ -13,7 +13,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App2 />
+      <App />
     </BrowserRouter>
   </React.StrictMode>
 );

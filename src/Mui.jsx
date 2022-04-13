@@ -24,7 +24,7 @@ import { Routes, Route } from "react-router-dom";
 import { purple } from "@mui/material/colors";
 import Layout from "./layout";
 import { useNavigate } from "react-router-dom";
-import { createMuiTheme, ThemeProvider } from "@material-ui/core";
+//import { createMuiTheme, ThemeProvider } from "@material-ui/core";
 
 const DeleteContext = createContext();
 
@@ -40,7 +40,7 @@ const useStyles = makeStyles({
   },
 });
 
-const theme = createMuiTheme({
+/* const theme = createMuiTheme({
   palette: {
     type: "light",
     primary: {
@@ -57,7 +57,7 @@ const theme = createMuiTheme({
     fontWeightRegular: 400,
     fontWeightBold: 800,
   },
-});
+}); */
 
 const Mui = () => {
   const classes = useStyles();
@@ -225,14 +225,16 @@ const Note = ({ note }) => {
 
 export const App2 = () => {
   return (
-    <ThemeProvider theme={theme}>
+    <>
+      {/* <ThemeProvider theme={theme}> */}
       <Layout>
         <Routes>
           <Route path="/" element={<Notes />} />
           <Route path="/create" element={<Mui />} />
         </Routes>
       </Layout>
-    </ThemeProvider>
+      {/* </ThemeProvider> */}
+    </>
   );
 };
 
