@@ -31,7 +31,7 @@ const Homepage = () => {
       <Properties properties={properties} />
       <ActionBanner />
       <Services />
-      //Todo: contact
+      {/* Todo: contact */}
       <Footer />
     </>
   );
