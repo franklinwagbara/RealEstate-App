@@ -4,8 +4,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { createRoot } from "react-dom/client";
-import MAT from "./MAT";
-import Mui, { App2 } from "./Mui";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
