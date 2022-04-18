@@ -26,6 +26,7 @@ const Gridcard = ({ property }) => {
       item
     >
       <Box
+        data-aos="fade-up"
         sx={{
           display: "flex",
         }}

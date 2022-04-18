@@ -22,7 +22,7 @@ const navList = [
 const Header = () => {
   const navigate = useNavigate();
   return (
-    <div>
+    <div style={{ overflow: "hidden" }}>
       <AppBar color="transparent">
         <Toolbar>
           <IconButton color="inherit">

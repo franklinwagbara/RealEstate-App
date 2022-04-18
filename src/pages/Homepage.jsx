@@ -32,7 +32,7 @@ const Homepage = () => {
       <Separator title="FEATURED PROPERTIES" color="inherit" />
       <Properties properties={properties} />
       <ActionBanner />
-      {/* <Services /> */}
+      <Services />
       {/* Todo: contact */}
       <Footer />
     </>

@@ -18,6 +18,7 @@ const ActionBanner = () => {
       }}
     >
       <Box
+        data-aos="fade-left"
         sx={{
           display: "flex",
           flexDirection: "column",
@@ -31,10 +32,10 @@ const ActionBanner = () => {
           height: "100%",
         }}
       >
-        <Typography variant="h2" color="white">
+        <Typography data-aos="fade-in" variant="h2" color="white">
           Discover Our Service Offerings
         </Typography>
-        <Typography variant="h5" color="#fcfcfcd9">
+        <Typography data-aos="fade-in" variant="h5" color="#fcfcfcd9">
           We offer a wide range of services in the Real Estate space. You are
           welcome to explore our services...
         </Typography>

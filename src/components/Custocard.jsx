@@ -10,6 +10,7 @@ import {
   Button,
 } from "@mui/material";
 import { CardActions } from "@material-ui/core";
+import "../Aos.config";
 
 const Custocard = ({ title = "", description = "", path }) => {
   return (
@@ -26,6 +27,7 @@ const Custocard = ({ title = "", description = "", path }) => {
       item
     >
       <Box
+        data-aos="fade-up"
         sx={{
           display: "flex",
         }}

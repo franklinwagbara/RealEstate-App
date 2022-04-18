@@ -2,10 +2,10 @@ import { Button } from "@mui/material";
 import React, { useState, useEffect, createContext } from "react";
 import useBoard from "./Hook/useBoard";
 import RenderRow from "./RenderRow";
-import Gameover from "../components/Gameover";
+import Gameover from "./Gameover";
 
 export const PlaceContext = createContext();
-const BoardSize = 3;
+const BoardSize = 4;
 
 const Tictac = () => {
   const [board, setBoard, createBoard, onPlace, isXNext, calculateWinner] =
