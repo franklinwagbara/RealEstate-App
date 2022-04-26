@@ -1,0 +1,6 @@
+.about {
+  margin: 100px 20px;
+  display: flex;
+  filter: hue-rotate(150deg);
+  padding: 20px;
+}

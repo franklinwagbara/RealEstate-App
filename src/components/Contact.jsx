@@ -36,7 +36,7 @@ const Contact = () => {
           },
         }}
       >
-        <TextField color="secondary" label="Full Name" focused />
+        <TextField color="secondary" label="Full Name" />
         <TextField color="secondary" label="Email" />
         <TextField color="secondary" multiline rows={6} label="Message" />
         <Button

@@ -29,11 +29,11 @@ const Homepage = () => {
   return (
     <>
       <Banner id="banner" />
-      <Separator title="FEATURED PROPERTIES" color="inherit" />
+      <Separator title="FEATURED PROPERTIES" color="primary.dark" />
       <Properties properties={properties} />
       <ActionBanner />
       <Services />
-      <Separator id="contact" title="CONTACT US" color="secondary" />
+      <Separator id="contact" title="CONTACT US" color="primary.dark" />
       <Contact />
     </>
   );

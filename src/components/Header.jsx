@@ -10,6 +10,7 @@ import {
 import { CatchingPokemon } from "@mui/icons-material";
 import React from "react";
 import Logo from "../assets/images/test.png";
+import { HashLink as Link } from "react-router-hash-link";
 import { useNavigate } from "react-router-dom";
 
 const navList = [
@@ -53,18 +54,20 @@ const Header = () => {
               </Button>
             ))}
 
-            <Button
-              sx={{
-                "&:hover": {
-                  color: "white",
-                  backgroundColor: "secondary.main",
-                },
-              }}
-              variant="outlined"
-              color="inherit"
-            >
-              CONTACT US
-            </Button>
+            <Link to="#contact" smooth>
+              <Button
+                sx={{
+                  "&:hover": {
+                    color: "white",
+                    backgroundColor: "secondary.main",
+                  },
+                }}
+                variant="outlined"
+                color="inherit"
+              >
+                CONTACT US
+              </Button>
+            </Link>
           </Stack>
         </Toolbar>
       </AppBar>
