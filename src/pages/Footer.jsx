@@ -44,7 +44,7 @@ const Footer = () => {
         }}
       >
         <Grid container>
-          <Grid sx={12} sm={6} md={6} item>
+          <Grid xs={12} sm={6} md={6} item>
             <Box color="#ffffffc7" width={400}>
               <List
                 subheader={
@@ -82,7 +82,7 @@ const Footer = () => {
               </List>
             </Box>
           </Grid>
-          <Grid sx={12} sm={6} md={6} item>
+          <Grid xs={12} sm={6} md={6} item>
             <Box color="#ffffffc7" width={400}>
               <List
                 subheader={

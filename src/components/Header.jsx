@@ -23,7 +23,7 @@ const Header = () => {
   const navigate = useNavigate();
   return (
     <div style={{ overflow: "hidden" }}>
-      <AppBar color="transparent">
+      <AppBar color="primary">
         <Toolbar>
           <IconButton color="inherit">
             <img src={Logo} width={60} />

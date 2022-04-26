@@ -23,7 +23,7 @@ const ActionBanner = () => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          alignContent: "center",
+          /* alignContent: "center", */
           justifyContent: "center",
           backgroundColor: "rgba(0, 0, 0, 0.364)",
           padding: "4rem",

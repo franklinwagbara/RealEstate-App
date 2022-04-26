@@ -10,8 +10,11 @@ import {
   Button,
 } from "@mui/material";
 import { CardActions } from "@material-ui/core";
+import { useNavigate } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Gridcard = ({ property }) => {
+  const navigate = useNavigate();
   return (
     <Grid
       sx={{
@@ -19,6 +22,7 @@ const Gridcard = ({ property }) => {
         alignContent: "center",
         alignItems: "center",
         justifyContent: "center",
+        margin: "20px 0px",
       }}
       xs={12}
       sm={6}
@@ -57,18 +61,20 @@ const Gridcard = ({ property }) => {
             <Typography>{property.description}</Typography>
           </CardContent>
           <CardActions>
-            <Button
-              sx={{
-                "&:hover": {
-                  backgroundColor: "secondary.main",
-                  color: "white",
-                },
-              }}
-              color="secondary"
-              variant="outlined"
-            >
-              Enqire
-            </Button>
+            <Link to="/#contact">
+              <Button
+                sx={{
+                  "&:hover": {
+                    backgroundColor: "secondary.main",
+                    color: "white",
+                  },
+                }}
+                color="secondary"
+                variant="outlined"
+              >
+                Enquire
+              </Button>
+            </Link>
           </CardActions>
         </Card>
       </Box>

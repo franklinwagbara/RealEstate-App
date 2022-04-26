@@ -5,7 +5,8 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { createRoot } from "react-dom/client";
 import Tictac from "./tictac/Tictac";
-
+import PostApp from "./posts/PostApp";
+import Appt from "./Navbar/Navbar";
 const container = document.getElementById("root");
 const root = createRoot(container);
 

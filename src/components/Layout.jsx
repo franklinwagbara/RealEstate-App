@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import { createTheme, ThemeProvider } from "@mui/material";
+import Footer from "./../pages/Footer";
 
 const theme = createTheme({
   palette: {
@@ -19,6 +20,7 @@ const Layout = ({ children }) => {
     <ThemeProvider theme={theme}>
       <Header />
       {children}
+      <Footer />
     </ThemeProvider>
   );
 };

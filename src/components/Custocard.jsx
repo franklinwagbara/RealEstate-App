@@ -10,6 +10,7 @@ import {
   Button,
 } from "@mui/material";
 import { CardActions } from "@material-ui/core";
+import { HashLink as Link } from "react-router-hash-link";
 import "../Aos.config";
 
 const Custocard = ({ title = "", description = "", path }) => {
@@ -17,7 +18,7 @@ const Custocard = ({ title = "", description = "", path }) => {
     <Grid
       sx={{
         display: "flex",
-        alignContent: "center",
+        /* alignContent: "center", */
         alignItems: "center",
         justifyContent: "center",
       }}
@@ -34,13 +35,13 @@ const Custocard = ({ title = "", description = "", path }) => {
         width={320}
         display="flex"
         flexDirection={"row"}
-        alignContent="center"
+        /* alignContent="center" */
         textOverflow={true}
       >
         <Card
           color="secondary"
-          alignContent={"center"}
-          alignItems={"center"}
+          /* alignContent={"center"} */
+          /* alignItems={"center"} */
           elevation={3}
         >
           <CardMedia
@@ -62,18 +63,20 @@ const Custocard = ({ title = "", description = "", path }) => {
             <Typography>{description}</Typography>
           </CardContent>
           <CardActions>
-            <Button
-              sx={{
-                "&:hover": {
-                  backgroundColor: "secondary.main",
-                  color: "white",
-                },
-              }}
-              color="secondary"
-              variant="contained"
-            >
-              Contact Us
-            </Button>
+            <Link to="#contact" smooth>
+              <Button
+                sx={{
+                  "&:hover": {
+                    backgroundColor: "secondary.main",
+                    color: "white",
+                  },
+                }}
+                color="secondary"
+                variant="contained"
+              >
+                Contact Us
+              </Button>
+            </Link>
           </CardActions>
         </Card>
       </Box>
