@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import { CatchingPokemon } from "@mui/icons-material";
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../assets/images/test.png";
 import { HashLink as Link } from "react-router-hash-link";
 import { useNavigate } from "react-router-dom";
@@ -22,6 +22,8 @@ const navList = [
 
 const Header = () => {
   const navigate = useNavigate();
+  const [active, setActive] = useState();
+
   return (
     <div style={{ overflow: "hidden" }}>
       <AppBar color="primary">
@@ -42,8 +44,14 @@ const Header = () => {
             {navList.map((item) => (
               <Button
                 key={item.title}
-                onClick={() => navigate(item.path)}
+                onClick={() => {
+                  navigate(item.path);
+                  setActive(item.title);
+                }}
                 sx={{
+                  backgroundColor: `${
+                    item.title === active ? "secondary.main" : "inherit"
+                  }`,
                   color: "white",
                   "&:hover": { backgroundColor: "secondary.main" },
                 }}
@@ -54,7 +62,7 @@ const Header = () => {
               </Button>
             ))}
 
-            <Link to="#contact" smooth>
+            <Link to="/#contact" smooth>
               <Button
                 sx={{
                   "&:hover": {
@@ -63,7 +71,7 @@ const Header = () => {
                   },
                 }}
                 variant="outlined"
-                color="inherit"
+                color="secondary"
               >
                 CONTACT US
               </Button>

@@ -17,7 +17,7 @@ const Aboutpage = () => {
           data-aos="fade-right"
           color="primary.dark"
           align="center"
-          variant="h3"
+          variant="h4"
         >
           ABOUT ME
         </Typography>
@@ -25,7 +25,7 @@ const Aboutpage = () => {
           data-aos="fade-up"
           color="primary.dark"
           component={"p"}
-          variant="h5"
+          variant="h6"
         >
           Emeka Amadi provides quality service to build relationships with
           clients and more importantly, maintain those relationships by
