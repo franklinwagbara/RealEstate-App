@@ -2,11 +2,11 @@
   "homepageproperties": [
     {
       "id": 1,
-      "title": "Property 1",
-      "price": "N20,000,000",
+      "title": "5 Bedroom Duplex",
+      "price": "N50,000,000",
       "path": "/prop1.jpg",
-      "location": "location of property 1",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum ipsum aut alias id, dolorem maiores, in quia expedita quos ad repellendus vero voluptatem, error libero adipisci aliquam pariatur eligendi!"
+      "location": "Lucky Street off 24 Extension Agip Estate Rumueme Port Harcout",
+      "description": "This property is in a one and half plots of land, situated at Lucky Street off 24 Extension Agip Estate Rumueme Port Harcout. It is a 5 bedroom duplex with a storey building, boys quarters containing a 3 room self contain and a bar. All relevant documents are available."
     },
     {
       "id": 2,
@@ -18,11 +18,11 @@
     },
     {
       "id": 3,
-      "title": "Property 3",
-      "price": "N20,000,000",
+      "title": "5 Bedroom Dupex",
+      "price": "N125,000,000",
       "path": "/prop3.jpg",
       "location": "location of property 3",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum ipsum aut alias id, dolorem maiores, in quia expedita quos ad repellendus vero voluptatem, error libero adipisci aliquam pariatur eligendi!"
+      "description": "This is a very powerful 5 bedroom Virgin Duplex behind Road Safety Egbu road Owerri in Imo State with a swimming pool and a guest house."
     },
     {
       "id": 4,

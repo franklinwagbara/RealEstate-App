@@ -1,0 +1,13 @@
+.content-area {
+  position: relative;
+  background-color: var(--background-color);
+  height: calc(100vh - var(--navbar-height));
+  left: var(--left-drawer-width);
+}
+
+@media screen and (max-width: 1000px) {
+  .content-area {
+    position: relative;
+    left: 0;
+  }
+}

@@ -7,13 +7,14 @@ import { createRoot } from "react-dom/client";
 import Tictac from "./tictac/Tictac";
 import PostApp from "./posts/PostApp";
 import Appt from "./Navbar/Navbar";
+import App2 from "./proj/App2";
 const container = document.getElementById("root");
 const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <App2 />
     </BrowserRouter>
   </React.StrictMode>
 );

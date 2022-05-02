@@ -14,7 +14,7 @@ const Propertiespage = () => {
       <Typography
         margin={"20px"}
         align="center"
-        variant="h2"
+        variant="h4"
         color="primary.dark"
       >
         OUR PROPERTIES

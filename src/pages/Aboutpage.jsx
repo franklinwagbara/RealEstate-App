@@ -2,7 +2,7 @@ import "../Aos.config";
 import React from "react";
 import "./styles/aboutpage.scss";
 //import "./styles/about.css";
-import ProfilePic from "../assets/images/profile.jpg";
+import ProfilePic from "../assets/images/profile2.jpg";
 import { Typography } from "@mui/material";
 import "../Aos.config";
 
