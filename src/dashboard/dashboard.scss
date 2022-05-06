@@ -14,19 +14,20 @@
 }
 
 .dashboard {
-  display: flex;
-  flex-direction: column;
-}
-
-.temp-dash {
   position: relative;
   display: flex;
-}
+  width: 100vw;
+  height: 100vh;
 
-.group {
-  position: relative;
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  justify-content: flex-start;
+  .wrapper-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper-drawer {
+    position: relative;
+    background-color: red;
+    width: 500px;
+    height: 100px;
+  }
 }

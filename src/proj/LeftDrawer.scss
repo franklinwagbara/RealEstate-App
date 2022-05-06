@@ -1,6 +1,5 @@
 .left-drawer {
   position: absolute;
-  display: inline-block;
   background-color: var(--secondary-color);
   width: var(--left-drawer-width);
   height: 100vh;
@@ -21,9 +20,13 @@
 }
 
 .open-drawer {
-  position: absolute;
-  display: inline-block;
+  position: relative;
   width: var(--left-drawer-max-width);
+
+  &:hover {
+    position: relative;
+    width: var(--left-drawer-max-width);
+  }
 }
 
 @media (max-width: 1000px) {

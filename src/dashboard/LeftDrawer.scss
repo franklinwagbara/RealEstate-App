@@ -1,0 +1,9 @@
+.left-drawer {
+  position: absolute;
+  height: 100vh;
+  background-color: var(--secondary-color);
+
+  &:hover {
+    position: absolute;
+  }
+}

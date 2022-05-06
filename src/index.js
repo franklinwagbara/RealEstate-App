@@ -6,15 +6,15 @@ import { BrowserRouter } from "react-router-dom";
 import { createRoot } from "react-dom/client";
 import Tictac from "./tictac/Tictac";
 import PostApp from "./posts/PostApp";
-import Appt from "./Navbar/Navbar";
-import App2 from "./proj/App2";
+import App3 from "./dashboard/App3";
+
 const container = document.getElementById("root");
 const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App2 />
+      <App />
     </BrowserRouter>
   </React.StrictMode>
 );
