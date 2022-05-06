@@ -2,19 +2,20 @@
   "homepageproperties": [
     {
       "id": 1,
-      "title": "5 Bedroom Duplex",
-      "price": "N50,000,000",
+      "title": "Property 2",
+      "price": "N20,000,000",
       "path": "/prop1.jpg",
-      "location": "Lucky Street off 24 Extension Agip Estate Rumueme Port Harcout",
-      "description": "This property is in a one and half plots of land, situated at Lucky Street off 24 Extension Agip Estate Rumueme Port Harcout. It is a 5 bedroom duplex with a storey building, boys quarters containing a 3 room self contain and a bar. All relevant documents are available."
+
+      "location": "location of property 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum ipsum aut alias id, dolorem maiores, in quia expedita quos ad repellendus vero voluptatem, error libero adipisci aliquam pariatur eligendi!"
     },
     {
       "id": 2,
-      "title": "Property 2",
-      "price": "N20,000,000",
+      "title": "5 Bedroom Duplex",
+      "price": "N50,000,000",
       "path": "/prop2.jpg",
-      "location": "location of property 2",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum ipsum aut alias id, dolorem maiores, in quia expedita quos ad repellendus vero voluptatem, error libero adipisci aliquam pariatur eligendi!"
+      "location": "Lucky Street off 24 Extension Agip Estate Rumueme Port Harcout",
+      "description": "This property is in a one and half plots of land, situated at Lucky Street off 24 Extension Agip Estate Rumueme Port Harcout. It is a 5 bedroom duplex with a storey building, boys quarters containing a 3 room self contain and a bar. All relevant documents are available."
     },
     {
       "id": 3,
