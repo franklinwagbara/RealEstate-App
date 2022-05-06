@@ -46,7 +46,8 @@ const Custocard = ({ title = "", description = "", path }) => {
         >
           <CardMedia
             sx={{
-              width: "200px",
+              height: "220px",
+              width: "190px",
               margin: "auto",
               transition: "transform 0.5s ease-in",
 
@@ -58,9 +59,9 @@ const Custocard = ({ title = "", description = "", path }) => {
             component="img"
             alt="image"
           />
-          <CardHeader title={title} />
+          <CardHeader sx={{ color: "primary.dark" }} title={title} />
           <CardContent>
-            <Typography>{description}</Typography>
+            <Typography color="GrayText">{description}</Typography>
           </CardContent>
           <CardActions>
             <Link to="#contact" smooth>

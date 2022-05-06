@@ -5,21 +5,21 @@ import Custocard from "./Custocard";
 const services = [
   {
     id: "1",
-    title: "Service 1",
-    path: "/house.png",
+    title: "Property Listing",
+    path: "/listing.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum ipsum aut alias id, dolorem maiores, in quia expedita quos ad repellendus vero voluptatem, error libero adipisci aliquam pariatur eligendi!",
   },
   {
     id: "2",
-    title: "Service 2",
-    path: "/house.png",
+    title: "Marketing",
+    path: "/marketing.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum ipsum aut alias id, dolorem maiores, in quia expedita quos ad repellendus vero voluptatem, error libero adipisci aliquam pariatur eligendi!",
   },
   {
     id: "3",
-    title: "Service 3",
+    title: "Property Rental",
     path: "/house.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum ipsum aut alias id, dolorem maiores, in quia expedita quos ad repellendus vero voluptatem, error libero adipisci aliquam pariatur eligendi!",
@@ -33,7 +33,7 @@ const Services = () => {
         {services.map((service) => (
           <Custocard
             key={service.id}
-            title={services.title}
+            title={service.title}
             description={service.description}
             path={service.path}
           />
